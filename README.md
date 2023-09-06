@@ -1,9 +1,10 @@
 # Equirec2Perspec
 ## Introduction
 <strong>Equirec2Perspec</strong> is a python tool to split equirectangular panorama into normal perspective view.
+<strong>convert.py</strong> is the main file to compile and run.
 
 ## Panorama
-Given an input of 360 degree panorama
+Given single or multiple inputs of 360 degree panorama image/s
 <center><img src="src/image.jpg"></center>
 
 ## Perpective
