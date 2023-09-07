@@ -18,7 +18,6 @@ import cv2
 import Equirec2Perspec as E2P 
 
 if __name__ == '__main__':
-    equ = E2P.Equirectangular('src/image.jpg')    # Load equirectangular image
     
     #
     # FOV unit is degree 
@@ -43,8 +42,9 @@ if __name__ == '__main__':
     phi_step = 30 #angle value of moving up vertically
 
     num_frames = 356 #Enter the number of images here
-
-
+    
+    frame_filename = f"frame{frame_num}.png"
+    equ = E2P.Equirectangular(frame_filename)    # Load equirectangular images
 
     #img = equ.GetPerspective(60, 0, 0, 720, 1080) # Specify parameters(FOV, theta_step, phi_step, height, width)
 ```
